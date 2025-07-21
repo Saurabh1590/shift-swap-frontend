@@ -1,7 +1,7 @@
 # ShiftSwap - Frontend 🎨
 
 <p align="start">
-  <img src="https://github.com/Saurabh1590/shift-swap-backend/blob/main/src/assets/ShiftSwapLogo.png?raw=true" alt="ShiftSwap Logo" width="200"/>
+  <img src="https://github.com/Saurabh1590/shift-swap-frontend/blob/main/src/assets/ShiftSwapLogo.png?raw=true" alt="ShiftSwap Logo" width="200"/>
 </p>
 
 This is the frontend for the ShiftSwap application, a modern and responsive user interface built with React and Vite. It provides a seamless experience for both employees and administrators to manage their schedules.
