@@ -1,21 +1,21 @@
 # ShiftSwap - Frontend 🎨
 
 <p align="start">
-  <img src="https://github.com/Saurabh1590/shift-swap-frontend/blob/main/src/assets/ShiftSwapLogo.png?raw=true" alt="ShiftSwap Logo" width="200"/>
+  <img src="./src/assets/ShiftSwapLogo.png" alt="ShiftSwap Logo" width="200"/>
 </p>
 
-This is the frontend for the ShiftSwap application, a modern and responsive user interface built with React and Vite. It provides a seamless experience for both employees and administrators to manage their schedules.
+This is the frontend for the ShiftSwap application, a modern and responsive user interface built with React and Vite. It provides a seamless experience for both employees and administrators to manage their schedules with a focus on a clean, intuitive, and dynamic user experience.
 
 ---
 
 ## ✨ Key Features
 
-- **Modern UI/UX:** Clean, responsive, and intuitive design built with Tailwind CSS.
-- **Role-Based Dashboards:** Separate, feature-rich dashboards for Employees and Administrators.
-- **Interactive Calendar:** A dynamic calendar serves as the main hub for employees, showing their schedule with color-coded shift types, approved leaves, and completed swaps.
-- **Intelligent Forms:** Smart forms for proposing swaps and requesting leave, with client-side validation that prevents scheduling conflicts and enforces business rules.
+- **Modern UI/UX:** A clean, responsive, and professional design built with Tailwind CSS, featuring smooth animations and an interactive layout.
+- **Role-Based Dashboards:** Separate, feature-rich dashboards for Employees and Administrators, providing tailored tools for each user type.
+- **Interactive Calendar:** A dynamic calendar serves as the main hub for employees, showing their schedule with color-coded shift types, approved leaves, and completed swaps with unique icons.
+- **Intelligent Forms:** Smart, intuitive forms for proposing swaps and requesting leave, with client-side validation that prevents scheduling conflicts and enforces business rules like the 8-hour time limit.
 - **Full Request Lifecycle:** Complete user flows for proposing, viewing, accepting, and tracking the history of all shift swaps and leave requests.
-- **Global State Management:** Uses React Context for robust authentication and session management across the application.
+- **Global State Management:** Uses React Context for robust authentication and session management across the entire application.
 
 ---
 
@@ -25,7 +25,7 @@ This is the frontend for the ShiftSwap application, a modern and responsive user
 - **Styling:** Tailwind CSS
 - **Routing:** React Router DOM
 - **API Communication:** Axios
-- **Date Management:** date-fns
+- **Date Management:** date-fns & react-day-picker
 
 ---
 
@@ -34,13 +34,13 @@ This is the frontend for the ShiftSwap application, a modern and responsive user
 ### Prerequisites
 
 - Node.js (v18 or later recommended)
-- A running instance of the [ShiftSwap Backend](https://github.com/your-username/shift-swap-backend).
+- A running instance of the **ShiftSwap Backend**.
 
 ### Installation & Setup
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/shift-swap-frontend.git](https://github.com/your-username/shift-swap-frontend.git)
+    git clone <your-frontend-repo-url>
     cd shift-swap-frontend
     ```
 
@@ -57,3 +57,27 @@ This is the frontend for the ShiftSwap application, a modern and responsive user
     npm run dev
     ```
     The application will be available at `http://localhost:5173`.
+
+---
+
+## 📸 Screenshots
+
+Here's a glimpse of the ShiftSwap application in action.
+
+**Home Page**
+*A professional landing page with a hero section and feature highlights.*
+![Home Page](./src/assets/screenshots/HomePage.png)
+
+**Login & Signup Page**
+*A modern, animated, two-panel layout for authentication.*
+![Signup Page](./src/assets/screenshots/SignupPage.png)
+
+![Login Page](./src/assets/screenshots/LoginPage.png)
+
+**Employee Dashboard**
+*An interactive calendar showing shifts, leaves, and swaps, with a side panel for details and actions.*
+![Employee Dashboard](./src/assets/screenshots/EmployeeDashboard.png)
+
+**Admin Dashboard**
+*A comprehensive view for administrators to manage pending requests and oversee users.*
+![Admin Dashboard](./src/assets/screenshots/AdminDashboard.png)
