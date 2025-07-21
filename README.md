@@ -64,20 +64,13 @@ This is the frontend for the ShiftSwap application, a modern and responsive user
 
 Here's a glimpse of the ShiftSwap application in action.
 
-**Home Page**
-*A professional landing page with a hero section and feature highlights.*
-![Home Page](./src/assets/screenshots/HomePage.png)
+| Home Page | Authentication |
+| :---: | :---: |
+| *A professional landing page with a hero section and feature highlights.* | *A modern, animated, two-panel layout for authentication.* |
+| ![Home Page](./src/assets/screenshots/HomePage.png) | ![Login Page](./src/assets/screenshots/LoginPage.png) |
 
-**Login & Signup Page**
-*A modern, animated, two-panel layout for authentication.*
-![Signup Page](./src/assets/screenshots/SignupPage.png)
+| Employee Dashboard | Admin Dashboard |
+| :---: | :---: |
+| *An interactive calendar showing shifts, leaves, and swaps.* | *A comprehensive view for managing requests and users.* |
+| ![Employee Dashboard](./src/assets/screenshots/EmployeeDashboard.png) | ![Admin Dashboard](./src/assets/screenshots/AdminDashboard.png) |
 
-![Login Page](./src/assets/screenshots/LoginPage.png)
-
-**Employee Dashboard**
-*An interactive calendar showing shifts, leaves, and swaps, with a side panel for details and actions.*
-![Employee Dashboard](./src/assets/screenshots/EmployeeDashboard.png)
-
-**Admin Dashboard**
-*A comprehensive view for administrators to manage pending requests and oversee users.*
-![Admin Dashboard](./src/assets/screenshots/AdminDashboard.png)
