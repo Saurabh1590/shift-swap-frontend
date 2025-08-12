@@ -5,8 +5,8 @@ import FormInput from '../components/FormInput';
 import AuthLayout from '../components/AuthLayout'; // Import the new layout
 
 const LoginPage = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('vikash@gmail.com');
+  const [password, setPassword] = useState('Vikash@123');
   const [error, setError] = useState(null);
   const { login } = useAuth();
   const navigate = useNavigate();
