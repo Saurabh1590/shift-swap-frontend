@@ -1,13 +1,10 @@
-import axios from 'axios';
+import axios from "axios";
 
-const baseURL = process.env.NODE_ENV === 'production'
-  ? 'https://shift-swap-backend.onrender.com/api' // <-- Paste your Render backend URL here
-  : 'http://localhost:5000/api';
-  
+const baseURL = import.meta.env.VITE_BACKEND_URL;
 
 const api = axios.create({
-  baseURL: baseURL,
-  withCredentials: true
+  baseURL,
+  withCredentials: true,  // MUST to send cookies on Render
 });
 
 export default api;
